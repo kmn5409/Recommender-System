@@ -4,6 +4,7 @@ import json
 #	dict1 = json.load(f)
 f = open("meta.csv","w+")
 i= 0 
+#Number of items 6000000
 for line in open("metadata.json"):
 
 	#print(line)
